@@ -1,0 +1,8 @@
+{
+  "name": "glide-code-server",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "vm2": "^3.9.19"
+  }
+}
