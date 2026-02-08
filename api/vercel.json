@@ -1,4 +1,10 @@
 {
+  "rewrites": [
+    {
+      "source": "/glide.json",
+      "destination": "/public/glide.json"
+    }
+  ],
   "functions": {
     "api/execute.js": {
       "memory": 1024,
