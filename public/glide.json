@@ -1,0 +1,50 @@
+{
+  "name": "Custom Code Executor",
+  "description": "Execute JavaScript code without column.sh",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "id": "custom-code-executor",
+  "columns": [
+    {
+      "id": "execute-code",
+      "name": "Execute Code",
+      "description": "Run JavaScript code with parameters",
+      "params": [
+        {
+          "id": "code",
+          "name": "JavaScript Code",
+          "type": "string",
+          "required": true
+        },
+        {
+          "id": "p1",
+          "name": "Parameter 1",
+          "type": "primitive"
+        },
+        {
+          "id": "p2",
+          "name": "Parameter 2",
+          "type": "primitive"
+        },
+        {
+          "id": "p3",
+          "name": "Parameter 3",
+          "type": "primitive"
+        },
+        {
+          "id": "p4",
+          "name": "Parameter 4",
+          "type": "primitive"
+        },
+        {
+          "id": "p5",
+          "name": "Parameter 5",
+          "type": "primitive"
+        }
+      ],
+      "result": {
+        "type": "primitive"
+      }
+    }
+  ]
+}
